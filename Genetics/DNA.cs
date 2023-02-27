@@ -29,8 +29,7 @@
     }
     public void Mutate(Random random)
     {
-      var mutationOperator = 1;//_random.Next(0, 2);
-      var size = Genome.Size();
+      var mutationOperator = _random.Next(0, 2);
       switch (mutationOperator)
       {
         case 0:
